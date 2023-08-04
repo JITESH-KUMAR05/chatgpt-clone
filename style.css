@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    border: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    height: 100vh;
+    background-color: #343541;
+}
+/* sidebar styles */
+.sidebar{
+    height: 100vh;
+    background-color: #202123;
+    width: 25vw;
+}
+.sd-bar-svg{
+    width: 100%;
+    height: 1rem;
+    color: white;
+    margin-left: 0.2rem;
+    width: 1rem;
+}
+.new-chat-option-2{
+    border: 1px solid lightgray;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    width: 12vw;
+    justify-content: center;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+.new-chat{
+    /* border: 1px solid lightgray; */
+    width: 100%;
+    margin-top: 0.6rem;
+    height: 3vh;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.new-chat-option{
+    border: 1px solid lightgray;
+    width: 85vw;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    padding: 0.3rem;
+    display: flex;
+    gap: 1rem;
+    height: 100%;
+    color: white;
+    align-items: center;
+}
+.new-chat-option:hover{
+    background-color: #3E3F4B;
+    cursor: pointer;
+}
+.new-chat-option-2:hover{
+    background-color: #3E3F4B;
+    cursor: pointer;
+}
+.day-used{
+    color: #C5C5D2;
+    margin-left: 1rem;
+    width: 100%;
+    font-size: 0.7rem;
+}
+
+.search-name{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 1rem 1rem 1rem;
+    width: 85%;
+    color: white;
+    border-radius: 1rem;
+    font-size: 0.85rem;
+    
+}
+.searches{
+    height: 730px;
+    border-bottom: 1px solid lightgray;
+}
+.search-name:hover{
+    background-color: #3E3F4B;
+}
+.sidebar-bottom{
+    width: 25vw;
+    height: 102px;
+    margin: 0 1rem ;
+}
+.subscription{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    align-items: center;
+}
+.upgrade{
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.btn{
+    /* color: brown; */
+    margin-left: 6rem;
+    background-color: #FAE69E;
+    border: none;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+.account{
+    display: flex;
+    color: white;
+    align-items: center;
+    height: 57px;
+}
+.account-img{
+    margin-right: 1rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.account-svg{
+    width: 1rem;
+    height: 1rem;
+    color: white ;
+    margin-left: 9rem;
+}
+
+/* main container styles */
+.main-container{
+    height: 100vh;
+    width: 75vw;
+}
+.container-content{
+    width: 48rem;
+    /* background-color: red; */
+    height: 30rem;
+    margin: 6rem auto;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.flex-card{
+    display: flex;
+    width: 48rem;
+    /* background-color: yellow; */
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.card-content{
+    text-align: center;
+    width: 14rem;
+    border-radius: 1rem;
+    height: 18rem;
+    /* background-color: blue; */
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    background-color: #3E3F4B;
+    width: 100%;
+    height: 3rem;
+    border-radius: 1rem;
+    margin-top: 0.85rem;
+    color: white;
+    padding: 6px;
+}
+.card:hover{
+    background-color: #202123;
+    cursor: pointer;
+}
+.center{
+    width: 100%;
+    height: 1.5rem;
+    color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.name{
+    color: white;
+    /* text-align: center; */
+}
+/* search box styles */
+.search-box{
+    width: 48rem;
+    display: flex;  
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 14rem;
+    background-color: #40414F;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    height: 2.5rem;
+}
+.send-icon{
+    height: 1rem;
+    color: #646574;
+    margin-right: 1rem;
+    width: 1 rem;
+    border: none;
+}
+.search-input{
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: #40414F;
+    border: none;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+}
+.search-input:focus{
+    outline: none;
+}
+.disc{
+    color: #C5C5D2;
+    width: 100%;
+    margin-top: 0.1rem;
+    align-items: center;
+    gap: 0.3rem;
+    display: flex;
+    justify-content: center;
+    font-size: 0.7rem;
+}
+.disc p{
+    text-decoration: underline;
+    cursor: pointer;
+}
